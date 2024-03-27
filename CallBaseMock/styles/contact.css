@@ -1,0 +1,830 @@
+﻿.inboundtop
+{
+    background-image: url("../images/bg_header.jpg");
+    height: 112px;
+    background-repeat: no-repeat;
+}
+
+.extraMargin
+{
+    margin-left: 635px;
+}
+
+body
+{
+    background-image: none !important;
+    background-color: #D3EFFB;
+}
+
+fieldset
+{
+    display: inline;
+}
+
+.headerbutton
+{
+    width: 125px;
+    margin-left: 3px;
+    border-radius: 10px 10px 10px 10px;
+    color: #67615A;
+}
+
+#orangebutton
+{
+    border: 1px solid #FF4719;
+    background-color: #FFBA8A;
+}
+
+.yellowbutton
+{
+    border: 1px solid #FFCC66;
+    background-color: #FFE680;
+}
+
+.inboundmain, .productContent, .knowledgeContent, .kbDetailsContent, .subjectContent, .orderStatusContent
+{
+    margin-top: 15px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+    height: 645px;
+    width: 771px;
+}
+
+.inboundmain
+{
+    width: 770px;
+}
+
+.actionbuttons, .orderbuttons, .continueBtn, .contactbuttons
+{
+    margin: 3px 0px 3px 3px;
+    font-size: 11px;
+    color: White;
+}
+
+.orderbuttons
+{
+    margin-top: 12px;
+}
+
+.actionbutton
+{
+    height: 18px;
+    width: 74px;
+    border: none;
+    margin-right: 3px;
+}
+
+.contactbuttons
+{
+    height: 18px;
+    width: 124px;
+    border: none;
+    margin-left: -1px;
+}
+
+.closeBtn
+{
+    color: white;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.saveStatusBtn
+{
+    margin: auto;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.redbtn
+{
+    background-image: url("../images/b_red.gif");
+    width: 105px;
+}
+
+.movementbutton
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    color: Blue;
+    background-color: white;
+    margin-right: 3px;
+}
+
+.movementbutton_disabeld
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    color: Gray;
+    background-color: white;
+    margin-right: 3px;
+}
+
+#firstbtn
+{
+    background-image: url("../images/i_first.gif");
+}
+
+#prevbtn
+{
+    background-image: url("../images/i_previous2.gif");
+}
+
+#nextbtn
+{
+    background-image: url("../images/i_next2.gif");
+}
+
+#lastbtn
+{
+    background-image: url("../images/i_last.gif");
+}
+
+.leftside
+{
+    height: 600px;
+    width: 220px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 5px;
+    margin-top: 6px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.leftsideBoxes
+{
+    font-size: 11px;
+    width: 200px;
+}
+
+.txtLang
+{
+    margin-top: -16px;
+    margin-left: 50px;
+    height: 15px;
+    width: 100px;
+}
+
+.greybutton
+{
+    width: 200px;
+    height: 20px;
+    font: bold 10px Verdana, Helvetica, sans-serif;
+    color: #5A5A5A;
+    letter-spacing: 0px;
+    line-height: 10px;
+    margin-top: 5px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid gray;
+}
+
+.biggergrey
+{
+    height: 35px;
+    white-space: normal;
+}
+
+.mandatory
+{
+    color: Red;
+    font-size: 11px;
+}
+
+.issueDiv, .shippingInfo, .orderDetails, .confirmStatus, .contactManagement, .contactLogs
+{
+    margin-left: 5px;
+    margin-top: 6px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 8px;
+}
+
+.issueDiv
+{
+    width: 182px;
+    height: 600px;
+}
+
+.shippingInfo
+{
+    height: 265px;
+}
+
+.shippingInfo, .orderDetails, .confirmStatus
+{
+    width: 412px;
+}
+
+.contactManagement
+{
+    width: 760px;
+    height: 520px;
+}
+
+.contactLogs
+{
+    width: 760px;
+    height:80px;
+}
+
+.orderDetails
+{
+    height: 330px;
+}
+.dashedbottom
+{
+    border-bottom: 1px dashed black;
+}
+
+hr
+{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.custInfo td, .orderInfo td
+{
+    padding: 0px 5px 3px 2px;
+}
+
+.custboxes, .orderboxes
+{
+    width: 100px;
+    height: 20px;
+    font-size: 11px;
+}
+
+.custboxesbig
+{
+    width: 250px;
+    height: 20px;
+    font-size: 11px;    
+}
+
+.largerCustBox
+{
+    width: 135px;
+}
+
+.productDiv
+{
+    overflow: auto;
+    height: 155px;
+    margin-top: 12px;
+    margin-bottom: 1px;
+}
+
+.productTable, .knowledgeTable, .subjectTableHeader, .subjectTable
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+}
+
+.productTable th, .knowledgeTable th, .subjectTable th
+{
+    background-color: #D3EFFB;
+    text-align: center;
+}
+
+.productTable, .productTable th, .productTable td
+{
+    border: 1px solid gray;
+    padding: 2px 5px 2px 5px;
+}
+
+.knowledgeTable, .knowledgeTable th, .knowledgeTable td
+{
+    border: 1px solid gray;
+    padding: 2px 5px 2px 5px;
+}
+
+.subjectTable, .subjectTable th, .subjectTable td
+{
+    border: 1px solid gray;
+    padding: 2px 5px 2px 5px;
+}
+
+.productTable tr, .productTable th, .productTable td
+{
+    white-space: nowrap;
+}
+
+.knowledgeTable tr, .knowledgeTable th, .knowledgeTable td
+{
+    white-space: nowrap;
+}
+
+.subjectTable tr, .subjectTable th, .subjectTable td
+{
+    white-space: nowrap;
+}
+
+.orderStatus
+{
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.findBox
+{
+    color: Gray;
+    height: 18px;
+    width: 110px;
+}
+
+.orderBoxes
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    height: 20px;
+    width: 80px;
+}
+
+.orderTable
+{
+    margin-top: 8px;
+}
+
+.knowledgeLink
+{
+    background-color: #99CCFF !important;
+    border-radius: 0px 0px 0px 0px;
+}
+.productLink
+{
+    background-color: #87A4C1 !important;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.orderLink
+{
+    background-color: #6B8FB2 !important;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.reportLink
+{
+    border-radius: 0px 4px 0px 0px;
+}
+.inboundcontent
+{
+    margin: auto;
+    width: 840px;
+}
+.scriptLabel
+{
+    /*margin-left: 152px;     */
+    padding: 0;
+}
+
+.smallText
+{
+    font-size: 10px;
+}
+
+.productTop, .knowledgeTop, .subjectTop, .orderStatusTop
+{
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.productTop
+{
+    height: 85px;
+}
+
+.knowledgeTop
+{
+    height: 105px;
+}
+
+.knowledgeTop input
+{
+    font-size: 12px;
+}
+
+.leftProductlbl, .leftKnowledgelbl
+{
+    padding-right: 40px;
+    padding-left: 55px;
+}
+
+.productTxt, .knowledgeTxt
+{
+    height: 20px;
+    margin-top: 6px;
+}
+
+.productTableDiv
+{
+    overflow: auto;
+    height: 474px;
+    margin: 5px 15px 15px 15px;
+}
+
+.subjectTableDiv
+{
+    height: 430px;
+    width: 400px;
+    overflow: auto;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.productActions
+{
+    margin-left: 10px;
+}
+
+.knowledgeTableDiv
+{
+    overflow: auto;
+    height: 250px;
+    margin: 5px 15px 15px 15px;
+}
+
+.inventoryTxt
+{
+    width: 25px;
+    height: 15px;
+}
+
+.knowledgeBottom
+{
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    height: 250px;
+}
+
+.knowledgeTableBottom
+{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.knowledgeMediumDiv
+{
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    height: 90px;
+    width: 280px;
+    display: inline-block;
+    float: left;
+}
+
+.knowledgeSmallDiv
+{
+    margin: 5px 2px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    height: 90px;
+    width: 155px;
+    float: left;
+    display: inline-block;
+}
+
+.knowledgeTxt
+{
+    height: 20px;
+    margin-top: 3px;
+}
+
+.countLabels
+{
+    margin-left: 20px;
+}
+
+.kbDetailsTop
+{
+    margin-left: 20px;
+    float: left;
+    display: inline-block;
+}
+
+.usageDiv
+{
+    margin: 8px 2px 5px 85px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    height: 50px;
+    width: 155px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.refInfo
+{
+    margin: 8px 2px 5px 75px;
+    padding-left: 5px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    height: 90px;
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.kbDetailsBottom
+{
+    margin-left: 20px;
+}
+
+.kbBottomTxt
+{
+    font-size: 11px;
+}
+
+.kbDetailTxt
+{
+    width: 200px;
+    height: 20px;
+}
+
+.kbBiggerTxt
+{
+    width: 482px;
+    height: 20px;
+}
+
+.knowledgeTable input[type="checkbox"] + label
+{
+    display: none;
+}
+
+.answerZoom
+{
+    height: 750px;
+    width: 800px;
+}
+.issueZoom
+{
+    height: 550px;
+    width: 500px;
+}
+.issueZoom, .answerZoom, .clientSearch, .promoDiv, .shippingDiv
+{
+    position: absolute;
+    background-color: White;
+    border: 1px solid black;
+}
+
+.clientSearch
+{
+    right: 550px;
+    top: 180px;
+    height: 250px;
+    width: 500px;
+}
+
+.issueZoom label, .answerZoom label, .shippingNotes label
+{
+    padding-left: 12px;
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    margin-bottom: 0px;
+}
+
+.issueZoom textarea, .answerZoom textarea, .shippingDiv textarea
+{
+    margin-left: 10px;
+}
+
+.closePopoutBtn
+{
+    float: right;
+    margin: 5px 2px 5px 2px;
+}
+.commentDetails, .shippingNotes
+{
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.commentTableDiv, .clientTableDiv, .promoTableDiv
+{
+    overflow: auto;
+    margin: 10px 12px 12px 12px;
+    width: 450px;
+    height: 120px;
+}
+
+.clientTableDiv
+{
+    height: 160px;
+}
+
+.promoTableDiv
+{
+    height: 200px;
+}
+
+.commentTableDiv table, .clientTableDiv table, .promoTableDiv table
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.commentTableDiv table, .commentTableDiv th, .commentTableDiv td
+{
+    border: 2px solid #B3C7F5;
+    padding: 2px 5px 2px 5px;
+}
+
+.clientTableDiv table, .clientTableDiv th, .clientTableDiv td
+{
+    border: 2px solid #B3C7F5;
+    padding: 2px 5px 2px 5px;
+}
+
+.commentTableDiv tr, .commentTableDiv th, .commentTableDiv td
+{
+    white-space: nowrap;
+}
+
+.clientTableDiv tr, .clientTableDiv th, .clientTableDiv td
+{
+    white-space: nowrap;
+}
+
+.orderTableDiv
+{
+    overflow: auto;
+    margin: 45px 5px 12px 10px;
+    width: 350px;
+    height: 180px;
+}
+
+.kbdTicketDiv
+{
+    margin-top: 12px;
+}
+
+.subjectBottom
+{
+    margin-left: 20px;
+}
+
+.subjectBottom td
+{
+    padding: 4px 4px 4px 4px;
+}
+
+.orderStatusTable
+{
+    margin: 5px 20px 5px 40px;
+}
+
+.orderStatusMiddle
+{
+    overflow: auto;
+    margin: 10px 12px 12px 12px;
+    width: 750px;
+    height: 350px;
+    border: 1px solid #94BFE9;
+}
+
+.orderRecordsTable td, .orderRecordsTable th, .orderRecordsTable tr
+{
+    white-space: nowrap;
+    padding: 2px 5px 2px 5px;
+}
+
+.orderStatusMiddle table
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.orderRecordsTable th
+{
+    border: 1px solid #94BFE9;
+}
+
+.orderRecordsTable
+{
+    margin: 1px 1px 0px 1px;
+}
+
+.orderRecordsTable td a
+{
+    color: #996633;
+}
+
+.orderRecordsTable td a:visited
+{
+    color: #333333;
+}
+
+.orderRecordsTable td a:hover
+{
+    color: #990000;
+}
+
+.assignToDiv
+{
+    margin: auto;
+    width: 500px;
+}
+
+.orderStatusBtn
+{
+    height: 20px;
+    width: 125px;
+    font-size: 11px;
+    color: White;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+.orderStatusbtnDiv
+{
+    margin: auto;
+    height: 25px;
+    width: 130px;
+}
+
+.sortasc
+{
+    padding-left: 17px !important;
+    background-image: url("../images/i_sort_up.gif");
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.sortdesc
+{
+    background-image: url("../images/i_sort_down.gif");
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-left: 17px !important;
+}
+
+.orderStatusLabel
+{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.promoTable table, .promoTable th, .promoTable td
+{
+    border: 2px solid #B3C7F5;
+    padding: 2px 5px 2px 5px;
+}
+
+.promoTable tr, .promoTable th, .promoTable td
+{
+    white-space: nowrap;
+}
+
+.regionLabel
+{
+    float: right;
+}
+
+.clientLogsTable
+{
+    width:inherit;
+    /*border-collapse: collapse;*/
+    /*background-color: #FFFFFF;*/
+}
+
+clientLogsTable TD
+{
+    text-align:center;
+}
+.custlogaccount
+{
+    width: 100px;
+    height: 20px;
+    font-size: 11px;    
+}
+
+.txtlabelLogs
+{
+    font-size: 11px;
+}

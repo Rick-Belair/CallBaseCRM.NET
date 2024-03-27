@@ -1,0 +1,77 @@
+﻿.callbaseMenu
+{
+    margin-left: 200px;
+}
+
+#menu
+{
+    padding-top: 40px;
+}
+#callbaseLink
+{
+    background-color: #94DBFF !important;
+    width: 100px;
+}
+
+#infoLink
+{
+    background-color: #99CCFF !important;
+    width: 100px;
+}
+#reportLink
+{
+    background-color: #87A4C1 !important;
+    width: 100px;
+}
+
+#maintenanceLink
+{
+    background-color: #6B8FB2 !important;
+    width: 110px;
+}
+.dropdown
+{
+    color: #515151;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+header
+{
+    height: 15px;
+}
+
+.indextop
+{
+    background-image: url("../images/index_top.jpg");
+    height: 107px;
+}
+.indexmiddle
+{
+    background-image: url("../images/index_middle.jpg");
+    height: 100px;
+}
+
+.indexbottom
+{
+    background-image: url("../images/index_bottom.jpg");
+    height: 96px;
+}
+
+.indexblurb
+{
+    display: block;
+    padding-top: 16px;
+    padding-left: 280px;
+    overflow: hidden;
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    width: 600px;
+}
+.indexcontent
+{
+    margin: auto;
+    width: 681px;
+}

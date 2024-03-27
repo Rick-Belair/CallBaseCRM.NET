@@ -1,0 +1,131 @@
+﻿body
+{
+    background-image: none !important;
+    background-color: #D3EFFB;
+    font-size: 11px;
+}
+.reportTop
+{
+    background-image: url("../images/bg_header.jpg");
+    height: 112px;
+    background-repeat: no-repeat;
+}
+.reportContent
+{
+    margin: auto;
+    width: 771px;
+}
+
+.extraMargin
+{
+    margin-left: 635px;
+}
+
+.reportmain
+{
+    
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+    height: 645px;
+}
+
+.reportCriteria
+{
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #94BFE9;
+    border-radius: 10px 10px 10px 10px;
+    height: 100px;
+}
+
+table
+{
+    float: left;
+    margin: 5px 45px 5px 10px;
+}
+
+.calendarDiv table
+{
+    float: none;
+    margin: 0;
+}
+
+.reportLists table
+{
+    float: none;
+    margin: 0;
+}
+
+.reportLists th, .reportLists td
+{
+    border: 2px solid #B3C7F5;
+    padding: 2px 5px 2px 5px;
+}
+
+.firstTable
+{
+    margin-left: 10px;
+}
+
+.lastTable
+{
+    margin-right: 10px;
+}
+
+.reportBoxes
+{
+    height: 20px;
+    width: 80px;
+    font-size: 12px;
+}
+
+label
+{
+    padding: 0;
+}
+
+.campaignDiv, .orderStatusDiv, .knowledgeDiv, .groupDiv, .refDiv, .qaDiv, .progDiv, .subjDiv
+{
+    margin-left: 15px;
+    float: left;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.campaignDiv
+{
+  margin-bottom: 15px;
+ /* width: 155px; */
+}
+
+.orderStatusDiv
+{
+   /* width: 155px; */
+}
+
+.knowledgeDiv, .refDiv, .qaDiv, .progDiv, .subjDiv
+{
+    height: 400px;
+    width: 300px;
+    float: right;
+}
+
+.knowledgeDiv
+{
+    margin-right: 15px;
+}
+
+.groupDiv
+{
+    float: right;
+    margin-right: 15px;
+    margin-left: 0px;
+    width: 226px;
+}
+
+.btnDiv
+{
+    width: 125px;
+    margin:auto;
+    margin-top: 450px;
+}

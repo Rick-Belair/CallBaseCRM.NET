@@ -1,0 +1,40 @@
+﻿header
+{
+    height: 60px;
+}
+.loginTable
+{
+    margin: auto;
+}
+
+.logincontent
+{
+    margin: auto;
+    margin-top: 40px;
+    width: 602px;
+}
+.btnLogin
+{
+    background-color: #3399FF;
+    color: White;
+}
+.logintop
+{
+    background-image: url("../images/callbase_login_top.jpg");
+    height: 107px;
+}
+.loginmiddle
+{
+    background-image: url("../images/callbase_login_middle.jpg");
+    height: 102px;
+}
+
+.loginbottom
+{
+    background-image: url("../images/callbase_login_bottom.jpg");
+    height: 119px;
+}
+.loginError
+{
+    margin-left: 15px;
+}

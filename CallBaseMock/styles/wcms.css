@@ -1,0 +1,64 @@
+﻿body
+{
+    background-image: none !important;
+    background-color: #D3EFFB;
+}
+.wcmsTop
+{
+    background-image: url("../images/header_icm.jpg");
+    height: 108px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.wcmsContent
+{
+    background-color: #FFFFFF;
+    height: 645px;
+    width: 893px;
+}
+
+.wcmsContainer
+{
+    margin: auto;
+    width: 900px;
+}
+
+.labelTable
+{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 830px;
+    height: 280px;
+}
+
+.labelTable td
+{
+    word-break: break-all;
+}
+
+.labelTable th
+{
+    background-color: #D3EFFB;
+    text-align: center;
+    color: #53504C;
+}
+
+.wcmsInner
+{
+    width: 800px;
+    margin: auto;
+}
+
+.wcmsInner a
+{
+    color: Blue;
+}
+
+.controlStyle
+{
+    height: 22px;
+    width: 200px;
+}

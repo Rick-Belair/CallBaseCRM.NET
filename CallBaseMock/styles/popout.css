@@ -1,0 +1,177 @@
+﻿label
+{
+    padding-left: 12px;
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    margin-bottom: 0px;
+}
+
+.commentDetails
+{
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.commentTableDiv
+{
+    overflow: scroll;
+    margin: 10px 12px 12px 12px;
+    width: 450px;
+    height: 120px;
+}
+
+table
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+table, th, td
+{
+    border: 2px solid #B3C7F5;
+    padding: 2px 5px 2px 5px;
+}
+
+tr, th, td
+{
+    white-space: nowrap;
+}
+
+.orderTableDiv
+{
+    overflow: scroll;
+    margin: 45px 5px 12px 10px;
+    width: 350px;
+    height: 180px;
+}
+
+.sortasc
+{
+    padding-left: 17px !important;
+    background-image: url("../images/i_sort_up.gif");
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.sortdesc
+{
+    background-image: url("../images/i_sort_down.gif");
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-left: 17px !important;
+}
+
+.statusReportTable, .statusReportTable th, .statusReportTable td
+{
+    border: none !important;
+}
+
+h2
+{
+    font: bold 11px Verdana, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+
+h3
+{
+    font: bold 10px Verdana, Helvetica, sans-serif;
+    color: #5170B0;
+    margin: 0;
+}
+
+.textCenter
+{
+    text-align: center;
+}
+
+.floatLeft
+{
+    float: left;
+}
+
+.floatRight
+{
+    float: right;
+}
+
+.fontBold
+{
+    font-weight: bold !important;
+}
+
+.blackText
+{
+    color: Black;
+}
+
+.fontItalic
+{
+    font-style: italic !important;
+}
+
+.reportText
+{
+    font: 10px Verdana, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.greyBack
+{
+    background-color: #E3E3E3;
+}
+
+.alignLeft
+{
+    text-align: left;
+}
+
+hr
+{
+    background-color: Gray;
+    height: 1px;
+    border: 0;
+    margin-top: 0px;
+}
+
+.blackBorder
+{
+    border-top: 1px solid black;
+}
+
+.reportUserTotalCell
+{
+    padding-left: 35px;
+}
+
+.reportUserTotalRow
+{
+    padding-bottom: 15px;
+}
+
+.breakRow
+{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.blankCell
+{
+    padding-bottom: 10px;
+}
+
+.finalBreakRow
+{
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+.grandTotal
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

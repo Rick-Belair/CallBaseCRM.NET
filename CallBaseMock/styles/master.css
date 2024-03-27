@@ -1,0 +1,188 @@
+﻿body
+{
+    background-image: url("../images/login_bg.jpg");
+    background-repeat: repeat-x;
+}
+
+label
+{
+    padding-top: 6px;
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    line-height: 11pt;
+    margin-bottom: 0px;
+}
+
+.breadcrumbDiv
+{
+    margin: 1px;
+    margin-left: 8px;
+}
+
+.breadcrumbDiv label
+{
+    padding: 0px;
+}
+
+.smallbluebtn
+{
+    background-image: url("../images/b_blue_small.gif");
+    color: White;
+}
+
+.medbluebtn
+{
+    background-image: url("../images/b_medium.gif");
+    color: White;
+}
+
+.orderbutton, .continueBtn, .printbutton
+{
+    height: 20px;
+    width: 125px;
+    border: none;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+}
+
+.fontbold
+{
+    font-weight: bold;
+    color: Black !important;
+}
+
+.calendarDiv
+{
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.menulinks
+{
+    margin-top: -14px;
+    font-size: 11px;
+    color: Gray;
+    margin-left: 520px;
+    color: black;
+    width: 600px;
+}
+
+.headerText
+{
+    margin-left: 15px;
+    margin-top: 1px;
+}
+
+img
+{
+    margin-bottom: 2px;
+}
+
+.headerbuttons
+{
+    margin-top: 26px;
+    margin-left: 165px;
+}
+
+.calendarbtn
+{
+    margin-top: 2px;
+}
+
+legend
+{
+    display: inline;
+    margin-bottom: 0px;
+    line-height: inherit;
+    border: 0;
+}
+
+.footerClass
+{
+    font: 10px Verdana, Helvetica, sans-serif;
+    color: #999999;
+    text-decoration: none;
+    letter-spacing: 0px;
+    padding-top: 0;
+    margin-top: -18px;
+    text-align: center;
+}
+
+.textareaStyle
+{
+    resize: none;
+    overflow: scroll;
+}
+
+a
+{
+    font: bold 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    text-decoration: none;
+    line-height: 11pt;
+    margin-right: 3px;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.menuBtn
+{
+    width: 120px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    font-size: 10.5px;
+}
+
+.menuBtn1
+{
+    width: 135px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    font-size: 10.5px;
+    font-weight: bold;
+}
+
+.menuBtn2
+{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    font-size: 10.5px;
+    font-weight: bold;
+}
+
+.inboundLink
+{
+    background-color: #94DBFF !important;
+    border-radius: 4px 0px 0px 0px;
+}
+
+td
+{
+    padding: 2px;
+}
+
+.copyright
+{
+    margin: 19px auto auto auto;
+}
+.greybold
+{
+    font: bold 11px Arial, Helvetica, sans-serif;
+    color: #67615A;
+    text-decoration: none;
+    line-height: 11pt;
+}
+
+.floatright
+{
+    float: right;
+}
+
+.floatleft
+{
+    float: left;
+}
