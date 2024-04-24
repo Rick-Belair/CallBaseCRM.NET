@@ -30,9 +30,9 @@
     <div class="footerClass">
     <footer>
         <div class="copyright" id="footerDiv" runat="server">
-            <asp:Label ID="lblYearDeveloped" runat="server" Text=""></asp:Label> <a target="_blank" href="http://www.nortak.com">Nortak Software
+            <asp:Label ID="lblYearDeveloped" runat="server" Text=""></asp:Label> <a target="_blank" href="https://www.nortak.com">Nortak Software
                 Ltd.</a><br />
-            Version 5.1.2
+            Version 5.1.3
         </div>
         <asp:ContentPlaceHolder ID="footerContent" runat="server">
         </asp:ContentPlaceHolder>
