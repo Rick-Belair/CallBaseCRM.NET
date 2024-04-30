@@ -344,7 +344,6 @@
                 <br />
                 <asp:TextBox ID="txtIssues" MaxLength="4000" CssClass="textareaStyle" runat="server" Width="100%" Height="210"
                     TextMode="MultiLine" Enabled="false" onKeyUp="javascript:lenCheck(this, 4000);" />
-                </asp:TextBox>
                 <div class="orderStatus">
                     <label class="fontbold" for="bodyContent_ddlOrderStatus">
                         <asp:Label ID="lblOrderStatus" runat="server" Text=""></asp:Label></label>
@@ -1080,32 +1079,37 @@
                 </div>
                 <div class="knowledgeMediumDiv">
                     <table class="knowledgeTableBottom">
-                        <tr>
+                        <tr style="width:80px;">
                             <td>
                                 <label for="bodyContent_ddlOrderKB">
                                     <asp:Label ID="lblOrderStatusKB" runat="server" Text=""></asp:Label></label>
                             </td>
-                            <td>
-                                <asp:DropDownList ID="ddlOrderKB" runat="server" CssClass="knowledgeTxt" Enabled="false">
+                            <td style="width:200px">
+                                <asp:DropDownList ID="ddlOrderKB" runat="server"  
+                                    style="width: 195px;
+                                    height: 35px;
+                                    white-space: initial;" 
+                                    Enabled="false" Font-Size="Smaller">
                                 </asp:DropDownList>
+                                <%--CssClass="knowledgeTxt"--%>
                             </td>
-                        </tr>
-                        <tr>
+                        </tr> 
+                        <tr>                            
                             <td>
                                 <label for="bodyContent_txtResponseDate">
                                     <asp:Label ID="lblResponseTimeKB" runat="server" Text="Label"></asp:Label></label><label
                                         for="bodyContent_txtResponseTime"></label>
                             </td>
-                            <td>
+                            <td style="white-space:nowrap;">
                                 <asp:TextBox ID="txtResponseDate" runat="server" CssClass="knowledgeTxt" Font-Size="12px"
-                                    Width="80" Enabled="false"></asp:TextBox>
+                                    Width="90px" Enabled="false"></asp:TextBox>
                                 <asp:ImageButton ID="imgbtnCal3" CssClass="calendarbtn" runat="server" ImageUrl="images/i_calendar2.gif"
                                     AlternateText="Calendar Button" Enabled="false" OnClick="imgbtnCal3_Click" />
                                 <div class="calendarDiv">
                                     <asp:Calendar ID="calResponseDate" runat="server" Visible="false" OtherMonthDayStyle-ForeColor="GrayText"
                                         OnSelectionChanged="calResponseDate_SelectionChanged"></asp:Calendar>
                                 </div>
-                                <asp:TextBox MaxLength="5" ID="txtResponseTime" runat="server" CssClass="knowledgeTxt" Width="40"
+                                <asp:TextBox MaxLength="5" ID="txtResponseTime" runat="server" CssClass="knowledgeTxt" Width="50px"
                                     Enabled="false"></asp:TextBox>
                             </td>
                         </tr>
