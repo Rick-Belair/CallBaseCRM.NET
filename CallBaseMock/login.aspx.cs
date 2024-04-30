@@ -46,13 +46,12 @@ namespace CallBaseMock
             /* The section immediately following this comment is for testing purposes, you can change the session variables to match whatever user and access you want to test
              * if you uncomment it it will ignore regular login logic and sign you in with the credentials provided */
 
-            //Session["CurrentUser"] = "belairr";
-            //Session["UserLevel"] = 1;
-            //Session["UserName"] = "Richard Belair";
-            //Session["UserAccess"] = "KIO,BC3,EWH,LIB,ONR,";
-            //Session["UserGroup"] = "KIO";
+            //Session["currentuser"] = "belairr";
+            //Session["userlevel"] = 1;
+            //Session["username"] = "richard belair";
+            //Session["useraccess"] = "kio,bc3,ewh,lib,onr,";
+            //Session["usergroup"] = "kio";
             //Response.Redirect("inbound.aspx");
-
 
             /* The section immediately following this comment is the real login logic, it will be ignored if you uncomment the section above */
 
