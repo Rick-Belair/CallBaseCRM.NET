@@ -2796,6 +2796,7 @@ namespace CallBaseMock
         {
             gvCommentHistory.DataBind();
             issueZoomDiv.Visible = true;
+            ToggleDropDownListVisibility(this.Form.Controls, false);
             if (inboundDiv.Visible)
                 txtCurrentComment.Text = txtIssues.Text;
             else
@@ -2822,6 +2823,7 @@ namespace CallBaseMock
         protected void imgbtnAnswer_Click(object sender, ImageClickEventArgs e)
         {
             answerZoomDiv.Visible = true;
+            ToggleDropDownListVisibility(this.Form.Controls, false);
             if (inboundDiv.Visible)
             {
                 txtIssuesZ.Text = txtIssues.Text;
@@ -3812,6 +3814,7 @@ namespace CallBaseMock
         protected void btnAnswerClose_Click(object sender, EventArgs e)
         {
             answerZoomDiv.Visible = false;
+            ToggleDropDownListVisibility(this.Form.Controls, true);
             txtIssues.Text = txtIssuesZ.Text;
             txtAnswer.Text = txtAnswerZ.Text;
             txtIssuesKB.Text = txtIssuesZ.Text;
@@ -3822,6 +3825,7 @@ namespace CallBaseMock
         protected void btnCloseIssues_Click(object sender, EventArgs e)
         {
             issueZoomDiv.Visible = false;
+            ToggleDropDownListVisibility(this.Form.Controls, true);
             gvCommentHistory.SelectedIndex = -1;
             txtSelComment.Text = "";
             txtIssues.Text = txtCurrentComment.Text;
@@ -4221,13 +4225,14 @@ namespace CallBaseMock
                 txtShipNotes.Enabled = false;
                 txtShipDetails.Enabled = false;
             }
-
+            ToggleDropDownListVisibility(this.Form.Controls, false);
             shippingNotesDiv.Visible = true;
 
         }//btnShipNotes_Click
 
         protected void btnCloseShipping_Click(object sender, EventArgs e)
         {
+            ToggleDropDownListVisibility(this.Form.Controls, true);
             shippingNotesDiv.Visible = false;
 
         }//btnCloseShipping_Click
@@ -4493,6 +4498,26 @@ namespace CallBaseMock
             ddlProvState2.SelectedIndex = ddlProvState.SelectedIndex;
 
 
+        }
+
+
+        private void ToggleDropDownListVisibility(ControlCollection ctls, bool isVisible)
+        {
+            ddlLine.Visible = isVisible;
+            ddlProvState.Visible = isVisible;
+            ddlSource.Visible = isVisible;
+            ddlCust.Visible = isVisible;
+            ddlClass.Visible = isVisible;
+            ddlOrderStatus.Visible = isVisible;
+            ddlProvState2.Visible = isVisible;
+            ddlDelivery.Visible = isVisible;
+            ddlWH.Visible = isVisible;
+            ddlLineKB.Visible = isVisible;
+            ddlOrderKB.Visible = isVisible;
+            ddlCriteria.Visible = isVisible;
+            ddlGroup.Visible = isVisible;
+            ddlStatus.Visible = isVisible;
+            ddlUser.Visible = isVisible;
         }
 
     }//class

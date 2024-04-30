@@ -218,7 +218,7 @@
                     <asp:Label ID="lblIncLine" runat="server" Text=""></asp:Label><span class="mandatory">*</span>
                 </label>
                 <br />
-                <asp:DropDownList ID="ddlLine" CssClass="leftsideBoxes" Enabled="false" runat="server"
+                <asp:DropDownList ID="ddlLine" CssClass="leftsideBoxes" Enabled="false" runat="server" Visible="false"
                     ValidationGroup="RequiredFields">
                     <asp:ListItem></asp:ListItem>
                 </asp:DropDownList>
