@@ -1,6 +1,6 @@
 Installation Instructions for CallBase Inbound 5
 
-The following instructions are for the installation of version 5.1.2 of the
+The following instructions are for the installation of version 5.1.3 of the
 CallbaseCRM.net application.
 
 It assumes that the application has the following installed:
@@ -9,13 +9,9 @@ It assumes that the application has the following installed:
 - Oracle client v10 or above
 
 The following changes have been made:
-- The Answer field will display a warning if the text entered is over 4000 characters
-  and will be truncated when saved.
-- The Questions/Comments field will display a warning if the text entered is over 4000 characters
-  and will be truncated when saved.
-- A fix for saving / displaying KnowledgeBase entries correctly.
-- A fix to populate the  Customer Shipping Details Prov/State dropdown
-  when the main Prov/State dropdown is changed.
+CRMNET-1	Developed By Nortak Software HTTP to HTTPS and Version Number Increase
+CRMNET-3	The Campaign drop-down is appearing in other pop-up
+CRMNET-4	The Order Status field is extending passed the border
 
 -----------------------------------------------------------
 
@@ -62,17 +58,6 @@ Install Application
 
    Note that this only needs to be done if IIS was shut down (see step 2a)
 
-Database Modification Steps
----------------------------   
-
-3a) Go to the files extracted from the install package (see step 1b above) and find the files under the directory database scripts
-
-3b) Log on to the oracle server under the callbase01 schema and run the following script:  insert_fhtmllabels.sql
-
-3c) Log on to the oracle server under the callbase01 schema and run the following script: insert_fhtmllanguage.sql
-
-[Note if the database scripts were previously run an error result will occur, this is normal and no damage can result from running these scripts a second time]
-
 Testing
 
 4a) Verify Application(s)
@@ -83,7 +68,7 @@ Testing
       http://(current web server)/(web directory)/login.aspx
 
      This will test whether the new application is installed correctly.
-     You should see a login page with versioin 5.1.2 at the bottom of the screen
+     You should see a login page with versioin 5.1.3 at the bottom of the screen
 
 
 
